@@ -1,0 +1,18 @@
+canvas{
+    border: 2px solid darkmagenta;
+    margin-top: 60px;
+    border-radius: 10px;
+    animation: a1 5s infinite ;
+}
+
+@keyframes a1{
+    from{box-shadow: 7px 5px 50px darkviolet;}
+    to{box-shadow: 7px 5px 50px darkcyan;}
+}
+
+.volume_img, .speed_img{
+    border-color: darkslategray;
+    border-width: 4px;
+    box-shadow: 4px 4px 10px slategrey;
+    height: 150px;
+}
